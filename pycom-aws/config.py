@@ -11,7 +11,8 @@ AWS_PRIVATE_KEY = '/flash/cert/aws_private.key'
 
 ################## Subscribe / Publish client #################
 CLIENT_ID = 'PycomPublishClient'
-TOPIC = 'dt/plant1/001/aggregate'
+TOPIC = 'dt/plant1/001/aggregate' # Subscribe Topic
+TOPIC = 'dt/plant1/002/aggregate' # Publish Topic
 OFFLINE_QUEUE_SIZE = -1
 DRAINING_FREQ = 2
 CONN_DISCONN_TIMEOUT = 10
