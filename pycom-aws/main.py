@@ -35,7 +35,7 @@ if pycomAwsMQTTClient.connect():
     print('AWS connection succeeded')
 
 # Subscribe to topic
-pycomAwsMQTTClient.subscribe(config.TOPIC, 1, customCallback)
+pycomAwsMQTTClient.subscribe(config.TOPIC_1, 1, customCallback) # Subscribe topic
 time.sleep(2)
 
 # Send message to host
